@@ -94,53 +94,19 @@ Some of the business questions answered by SQL queries:
 ## Focus Areas
 ## Focus Areas
 
-Below is a quick overview of the main areas covered in this project and the level of depth I focused on.  
-(Each bar is out of 10 — adjust values as needed.)
+## Focus Areas
+
+| Area | Score | Bar | % |
+|------|--------|----------------|------|
+| Ingestion | 6/10 | ██████░░░░ | 60% |
+| Storage | 9/10 | █████████░ | 90% |
+| Modeling | 8/10 | ████████░░ | 80% |
+| ETL / ELT | 6/10 | ██████░░░░ | 60% |
+| Orchestration | 3/10 | ███░░░░░░░ | 30% |
+| Data Quality | 5/10 | █████░░░░░ | 50% |
+| Infrastructure | 6/10 | ██████░░░░ | 60% |
 
 ---
-
-### **Ingestion**
-**Value:** 6 / 10  
-**Bar:** ██████░░░░ — **60%**
-
----
-
-### **Storage**
-**Value:** 9 / 10  
-**Bar:** █████████░ — **90%**
-
----
-
-### **Modeling**
-**Value:** 8 / 10  
-**Bar:** ████████░░ — **80%**
-
----
-
-### **ETL / ELT**
-**Value:** 6 / 10  
-**Bar:** ██████░░░░ — **60%**
-
----
-
-### **Orchestration**
-**Value:** 3 / 10  
-**Bar:** ███░░░░░░░ — **30%**
-
----
-
-### **Data Quality**
-**Value:** 5 / 10  
-**Bar:** █████░░░░░ — **50%**
-
----
-
-### **Infrastructure**
-**Value:** 6 / 10  
-**Bar:** ██████░░░░ — **60%**
-
----
-
 
 ---
 
