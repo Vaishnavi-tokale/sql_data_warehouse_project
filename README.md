@@ -92,21 +92,16 @@ Some of the business questions answered by SQL queries:
 ---
 
 ## Focus Areas
-## Focus Areas
 
-## Focus Areas
-
-| Area | Score | Bar | % |
-|------|--------|----------------|------|
-| Ingestion | 6/10 | ██████░░░░ | 60% |
-| Storage | 9/10 | █████████░ | 90% |
-| Modeling | 8/10 | ████████░░ | 80% |
-| ETL / ELT | 6/10 | ██████░░░░ | 60% |
-| Orchestration | 3/10 | ███░░░░░░░ | 30% |
-| Data Quality | 5/10 | █████░░░░░ | 50% |
-| Infrastructure | 6/10 | ██████░░░░ | 60% |
-
----
+| Area           | Focus Level            |
+|----------------|-------------------------|
+| Ingestion      | ██████░░░░  60%         |
+| Storage        | █████████░  90%         |
+| Modeling       | ████████░░  80%         |
+| ETL / ELT      | ██████░░░░  60%         |
+| Orchestration  | ███░░░░░░░  30%         |
+| Data Quality   | █████░░░░░  50%         |
+| Infrastructure | ██████░░░░  60%         |
 
 ---
 
