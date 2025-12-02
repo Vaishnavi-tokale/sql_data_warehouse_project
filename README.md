@@ -7,16 +7,16 @@ In this project, I design and implement a complete Retail Sales Data Warehouse u
 ---
 
 ## Table of Contents
-- [Project Overview]
-- [Tech Stack]
-- [Architecture]
-- [Schema Design]
-- [ETL Pipeline]
-- [Key Analytics]
-- [Focus Areas]
-- [Credits]
-- [BI Analytics & Reporting (Data Analytics)]
-- [Final Note]
+- Project Overview
+- Tech Stack
+- Architecture
+- Schema Design
+- ETL Pipeline
+- Key Analytics
+- Focus Areas
+- Credits
+- BI Analytics & Reporting (Data Analytics)
+- Final Note
 
 ---
 
@@ -92,59 +92,55 @@ Some of the business questions answered by SQL queries:
 ---
 
 ## Focus Areas
+## Focus Areas
 
-<table>
-  <thead>
-    <tr>
-      <th>Area</th>
-      <th>Focus Level</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ingestion</td>
-      <td>
-        <progress value="60" max="100"></progress> 60%
-      </td>
-    </tr>
-    <tr>
-      <td>Storage</td>
-      <td>
-        <progress value="90" max="100"></progress> 90%
-      </td>
-    </tr>
-    <tr>
-      <td>Modeling</td>
-      <td>
-        <progress value="80" max="100"></progress> 80%
-      </td>
-    </tr>
-    <tr>
-      <td>ETL / ELT</td>
-      <td>
-        <progress value="60" max="100"></progress> 60%
-      </td>
-    </tr>
-    <tr>
-      <td>Orchestration</td>
-      <td>
-        <progress value="30" max="100"></progress> 30%
-      </td>
-    </tr>
-    <tr>
-      <td>Data Quality</td>
-      <td>
-        <progress value="50" max="100"></progress> 50%
-      </td>
-    </tr>
-    <tr>
-      <td>Infrastructure</td>
-      <td>
-        <progress value="60" max="100"></progress> 60%
-      </td>
-    </tr>
-  </tbody>
-</table>
+Below is a quick overview of the main areas covered in this project and the level of depth I focused on.  
+(Each bar is out of 10 — adjust values as needed.)
+
+---
+
+### **Ingestion**
+**Value:** 6 / 10  
+**Bar:** ██████░░░░ — **60%**
+
+---
+
+### **Storage**
+**Value:** 9 / 10  
+**Bar:** █████████░ — **90%**
+
+---
+
+### **Modeling**
+**Value:** 8 / 10  
+**Bar:** ████████░░ — **80%**
+
+---
+
+### **ETL / ELT**
+**Value:** 6 / 10  
+**Bar:** ██████░░░░ — **60%**
+
+---
+
+### **Orchestration**
+**Value:** 3 / 10  
+**Bar:** ███░░░░░░░ — **30%**
+
+---
+
+### **Data Quality**
+**Value:** 5 / 10  
+**Bar:** █████░░░░░ — **50%**
+
+---
+
+### **Infrastructure**
+**Value:** 6 / 10  
+**Bar:** ██████░░░░ — **60%**
+
+---
+
 
 ---
 
