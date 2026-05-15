@@ -1,7 +1,6 @@
 # Retail Sales SQL Data Warehouse (End-to-End ETL Project)
 
 Welcome to the **Retail Sales SQL Data Warehouse (End-to-End ETL Project)** repository!
-Welcome to my first end-to-end data warehouse project!
 In this project, I design and implement a complete Retail Sales Data Warehouse using SQL Server, featuring Bronze–Silver–Gold layered architecture, automated ETL pipelines, data quality checks, and analytics-ready modeling for BI insights.
 
 ---
@@ -105,7 +104,7 @@ Some of the business questions answered by SQL queries:
 
 ---
 
-##Credits
+## Credits
 
 - **Inspired by**: @DatawithBaraa’s Data Warehouse Tutorial
 - **Developed by**: Vaishnavi Tokale
