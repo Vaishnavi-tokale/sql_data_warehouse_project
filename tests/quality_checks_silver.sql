@@ -177,4 +177,42 @@ WHERE cat       != TRIM(cat)
 SELECT DISTINCT maintenance
 FROM silver.erp_px_cat_glv2;
 
+---------------------------------------------------------
+-- ADDITIONAL DATA QUALITY VALIDATIONS
+---------------------------------------------------------
+PRINT '>>> Running additional validation checks';
+
+-- Detect NULL customer first names
+SELECT *
+FROM silver.crm_cust_info
+WHERE cst_firstname IS NULL;
+
+-- Detect NULL customer last names
+SELECT *
+FROM silver.crm_cust_info
+WHERE cst_lastname IS NULL;
+
+-- Detect missing product references
+SELECT *
+FROM silver.crm_sales_details
+WHERE sls_prd_key IS NULL;
+
+-- Detect sales records without matching customers
+SELECT s.*
+FROM silver.crm_sales_details s
+LEFT JOIN silver.crm_cust_info c
+    ON s.sls_cust_id = c.cst_id
+WHERE c.cst_id IS NULL;
+
+-- Detect future order dates
+SELECT *
+FROM silver.crm_sales_details
+WHERE sls_order_dt > GETDATE();
+
+-- Detect empty product names
+SELECT *
+FROM silver.crm_prd_info
+WHERE prd_nm IS NULL
+   OR TRIM(prd_nm) = '';
+
 PRINT '>>> QUALITY CHECKS COMPLETED.';
