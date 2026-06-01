@@ -1,0 +1,35 @@
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# SQL Server backups
+*.bak
+*.trn
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset artifacts (optional)
+*.csv
